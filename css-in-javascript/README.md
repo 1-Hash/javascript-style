@@ -1,11 +1,11 @@
 # Airbnb CSS-in-JavaScript 样式指南
 *一个 CSS-in-JavaScript 比较普遍的规范指南*
 ##目录
-1. [Naming](#命名)
-1. [Ordering](#命令)
-1. [Nesting](#嵌套)
-1. [Inline](#内联)
-1. [Themes](#主题)
+1. [命名](#命名)
+1. [声明](#声明)
+1. [嵌套](#嵌套)
+1. [内联](#内联)
+1. [主题](#主题)
 
 #命名
 

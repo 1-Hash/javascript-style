@@ -2,20 +2,20 @@
 *一个 React 和 JSX 比较普遍的规范指南*
 ## 目录
 
-  1. [Basic Rules](#基础的规则)
+  1. [Basic 基础的规则](#基础的规则)
   1. [Class vs `React.createClass` vs stateless](#class-vs-reactcreateclass-vs-stateless)
   1. [Mixins](#mixins)
-  1. [Naming](#命名)
-  1. [Declaration](#声明)
-  1. [Alignment](#对齐)
-  1. [Quotes](#quotes)
-  1. [Spacing](#空格)
-  1. [Props](#属性)
+  1. [命名](#命名)
+  1. [声明](#声明)
+  1. [对齐](#对齐)
+  1. [引号](#引号)
+  1. [空格](#空格)
+  1. [属性](#属性)
   1. [Refs](#refs)
-  1. [Parentheses](#括号)
-  1. [Tags](#标签)
-  1. [Methods](#方法)
-  1. [Ordering](#生命周期)
+  1. [括号](#括号)
+  1. [标签](#标签)
+  1. [方法](#方法)
+  1. [生命周期](#生命周期)
   1. [`isMounted`](#ismounted)
 
 ## 基础的规则
