@@ -7,12 +7,28 @@ eslint作为前端js开发的代码检查工具，配置选择的是airbnb的基
 ### 使用
 1.  在IDE中打开eslint工具
 2.  配置根目录下的.eslintrc
+3.  在package.json 中的"devDependencies" 字段中安装以下依赖：
+
+   "babel-eslint": "^8.2.0",
+   "eslint": "^4.15.0",
+   "eslint-config-airbnb": "^16.1.0",
+   "eslint-formatter-pretty": "^1.3.0",
+   "eslint-import-resolver-webpack": "^0.8.4",
+   "eslint-plugin-compat": "^2.1.0",
+   "eslint-plugin-flowtype": "^2.41.0",
+   "eslint-plugin-import": "^2.10.0",
+   "eslint-plugin-jest": "^21.5.0",
+   "eslint-plugin-jsx-a11y": "6.0.3",
+   "eslint-plugin-node": "^6.0.1",
+   "eslint-plugin-promise": "^3.7.0",
+   "eslint-plugin-react": "^7.5.1"
 
 ### 资源
 [Eslint官网](http://eslint.cn/docs/user-guide/configuring)
 
-[](https://github.com/airbnb/javascript);
-规则:
+[airbnb/javascript](https://github.com/airbnb/javascript);
+
+rules条目查询：
 
 [javascript](http://eslint.cn/docs/rules)
 
@@ -20,8 +36,6 @@ eslint作为前端js开发的代码检查工具，配置选择的是airbnb的基
 
 [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
 
-[eslint-plugin-import]()
-
-
+[eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 
 eslint-import-resolver-webpack: 这个是告诉 eslint，使用 webpack 的 resolver 来检查 package 是否引用正确, 需要在项目中安装此模块
