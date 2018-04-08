@@ -1,0 +1,53 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true
+  },
+  "rules": {
+    "no-void": "off",
+    "no-plusplus": "off",
+    "object-curly-spacing": "off",
+    "comma-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "object-curly-newline": ["error", { "consistent": true }],
+    "import/no-unresolved": "error",
+    "compat/compat": "error",
+    "no-console": "off",
+    "prefer-arrow-callback": "warn",
+    "jsx-a11y/anchor-is-valid": "off",
+    "promise/param-names": "error",
+    "promise/always-return": "off",
+    "promise/catch-or-return": "error",
+    "promise/no-native": "off",
+    "react/prop-types": "off",
+    "react/forbid-prop-types": "off",
+    "react/sort-comp": ["error", {
+      "order": ["type-annotations", "static-methods", "lifecycle", "everything-else", "render"]
+    }],
+    "react/jsx-no-bind": "warn",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": "off"
+  },
+  "plugins": [
+    "flowtype",
+    "import",
+    "promise",
+    "compat",
+    "react"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.eslint.js"
+      }
+    }
+  }
+}
