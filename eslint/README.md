@@ -38,4 +38,13 @@ rules条目查询：
 
 [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 
+关于map生成的dom key值使用了index的问题：
+
+[React之反模式index as key](https://segmentfault.com/a/1190000009149186)
+
+产品化解决方案：
+
+        npm install shortid -S
+        var shortid = require('shortid');
+
 eslint-import-resolver-webpack: 这个是告诉 eslint，使用 webpack 的 resolver 来检查 package 是否引用正确, 需要在项目中安装此模块
