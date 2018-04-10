@@ -13,7 +13,7 @@
   "rules": {
     "no-void": "off",
     "no-plusplus": "off",
-    "no-use-before-define": ["error", { "functions": false, "classes": false }],
+    "no-use-before-define": "warn",
     "no-console": "off",
     "object-curly-spacing": "off",
     "object-curly-newline": ["error", { "consistent": true }],
